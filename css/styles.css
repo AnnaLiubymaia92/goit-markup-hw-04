@@ -96,7 +96,7 @@ body {
     padding-bottom: 24px;
     display: block;    
 }
-.current{transition: color 250ms cubic-besier (0.4, 0, 0.2, 1);
+.current{transition: color 250ms cubic-besier(0.4, 0, 0.2, 1);
     color: #404bbf;}
 
 .current::after { content: ''; display: block;
@@ -121,7 +121,8 @@ body {
     display: flex;
     gap: 40px;
 }
-.address-link {transition: color 250ms cubic-besier (0.4, 0, 0.2, 1);
+.address-link {
+transition: color 250ms cubic-besier(0.4, 0, 0.2, 1);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -156,7 +157,7 @@ color: #434455;
     max-width: 496px;
     margin-bottom: 24px;
 }
-.order-service-btn {font-family: inherit;
+.order-service-btn{font-family: inherit;
     display: block;
     text-align: center;
     cursor: pointer;
@@ -178,7 +179,7 @@ color: #434455;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-service-btn:hover,
-.order-service-btn:focus {
+.order-service-btn:focus{
 background-color: #404BBF;
 }
 /* =========== /Hero Section styles =========== */
@@ -277,9 +278,7 @@ padding-right: auto;
 }
 .media-link:hover,
 .media-link:focus {
-    background-color: #404bbf;
-
-}
+    background-color: #404bbf;}
 .media-icon{
       fill:#f4f4fd;
 }
