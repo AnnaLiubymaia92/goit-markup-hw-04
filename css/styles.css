@@ -380,8 +380,7 @@ transform: translateY(100%);
 .page-footer{color: #f4f4fd;
     padding: 100px 0;
     background-color: #2E2F42;
-    margin-right: 120px;
-}
+    }
 .container-footer{
     display: flex;
     align-items: baseline;}
